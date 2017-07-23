@@ -1,11 +1,10 @@
 {
   "name": "decreasingblur",
-  "version": "1.0.6",
+  "version": "1.0.9",
   "description": "Unblur progressively an object depending on load state",
-  "main": "public/rui.js",
+  "main": "rui.js",
   "scripts": {
-    "build-dev": "webpack -g --watch",
-    "build": "webpack -p"
+    "test": "uptime"
   },
   "repository": {
     "type": "git",
@@ -23,9 +22,5 @@
   "bugs": {
     "url": "https://github.com/jeanphilipperuijs/decreasingBlur/issues"
   },
-  "homepage": "https://github.com/jeanphilipperuijs/decreasingBlur#README",
-  "devDependencies": {
-    "webpack": "^3.3.0",
-    "webpack-dev-server": "^2.6.1"
-  }
+  "homepage": "https://github.com/jeanphilipperuijs/decreasingBlur#README"
 }
