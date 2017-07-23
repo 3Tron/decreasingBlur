@@ -3,7 +3,7 @@ Unblur progressively an object depending on load state
 
 ## e.g. ##
 ```
-import decreasingBlur from 'decreasingblur';
+import {decreasingBlur} from 'decreasingblur';
 
 load(url) {
     let xobj = new XMLHttpRequest();

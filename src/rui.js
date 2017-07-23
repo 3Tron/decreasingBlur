@@ -1,4 +1,4 @@
-exports.decreasingBlur = (state, obj) => {
+exports.decreasingBlur = function (state, obj) {
   if (state === 0) {
     obj.style.WebkitFilter = 'blur(6px)';
     obj.style.Filter = 'blur(5px)';
