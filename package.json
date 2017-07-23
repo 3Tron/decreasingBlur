@@ -1,6 +1,6 @@
 {
   "name": "decreasingblur",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Unblur progressively an object depending on load state",
   "main": "index.js",
   "scripts": {
