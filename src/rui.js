@@ -1,29 +1,28 @@
 exports.decreasingBlur = function (state, obj, debug) {
+  let blur = 'blur(0px)';
+  swith(+state){
+  case 0:
+    blur = 'blur(10px)';
+    break;
+  case 1:
+    blur = 'blur(8px)';
+    break;
+  case 2:
+    blur = 'blur(6px)';
+    break;
+  case 3: 
+    blur = 'blur(4px)';
+    break;
+  case 4:
+    blur = 'blur(0px)';
+    break;
+   default:
+    blur = 'blur(0px)';
+    break;
+  }
+  obj.style.WebkitFilter = blur;
+  obj.style.Filter = blur;
   if (debug !== undefined && debug !== false) {
-    console.log('decreasingBlur', state, obj);
-  }
-  if (state == 0) {
-    obj.style.WebkitFilter = 'blur(10px)';
-    obj.style.Filter = 'blur(10px)';
-  }
-  if (state == 1) {
-    obj.style.WebkitFilter = 'blur(8px)';
-    obj.style.Filter = 'blur(8px)';
-  }
-  if (state == 1) {
-    obj.style.WebkitFilter = 'blur(6px)';
-    obj.style.Filter = 'blur(6px)';
-  }
-  if (state == 2) {
-    obj.style.WebkitFilter = 'blur4px)';
-    obj.style.Filter = 'blur(4px)';
-  }
-  if (state == 3) {
-    obj.style.WebkitFilter = 'blur(2px)';
-    obj.style.Filter = 'blur(2px)';
-  }
-  if (state == 4) {
-    obj.style.WebkitFilter = 'blur(0px)';
-    obj.style.Filter = 'blur(0px)';
+    console.log('decreasingBlur', state, blur, obj);
   }
 }
