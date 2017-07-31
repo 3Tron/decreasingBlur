@@ -1,11 +1,11 @@
 {
   "name": "decreasingblur",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "description": "Unblur progressively an object depending on load state",
   "main": "src/rui.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/jeanphilipperuijs/decreasingBlur.git"
+    "url": "git+ssh://git@github.com/3Tron/decreasingBlur.git"
   },
   "keywords": [
     "style",
@@ -17,7 +17,7 @@
   "author": "Jean-Philippe Ruijs",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jeanphilipperuijs/decreasingBlur/issues"
+    "url": "https://github.com/3Tron/decreasingBlur/issues"
   },
-  "homepage": "https://github.com/jeanphilipperuijs/decreasingBlur#README"
+  "homepage": "https://github.com/3Tron/decreasingBlur#README"
 }
